@@ -10,4 +10,9 @@
 
 @interface UserDefaultsDemo : NSObject
 
+@property (strong,nonatomic)NSMutableDictionary *dict;
+@property (strong,nonatomic)NSMutableArray *arr;
+
+-(void)defaultsDisp:(NSInteger)sum firstName:(NSString *)firstName secondName:(NSString *)secondName;  
+  
 @end
