@@ -10,4 +10,6 @@
 
 @interface UserDefaultsSample : NSObject
 
+-(void)Sample;
+  
 @end
